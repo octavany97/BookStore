@@ -22,4 +22,9 @@ class BookStoreModel extends CI_Model {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function getUser($username, $password){
+		$passhash = sha1($password);
+		return $this->db->query("SELECT * FROM users WHERE username='$username' AND password='$passhash'")->row_array();
+	}
+	
 }

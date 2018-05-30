@@ -66,7 +66,7 @@ class BookStoreController extends CI_Controller {
 		$data = [];
 		$data['css'] = $this->load->view('include/css', NULL, TRUE);
 		$data['js'] = $this->load->view('include/js', NULL, TRUE);
-		$data['header'] = $this->load->view('include/header', NULL, TRUE);
+		$data['header'] = $this->load->view('include/headerLogin', NULL, TRUE);
 		/*
 		if($result['tipe_pengguna'] == 'Pabrik'){
 			$data['sidebar'] = $this->load->view('include/sidebarPabrik', NULL, TRUE);

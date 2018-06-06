@@ -27,7 +27,7 @@ Header
         
       
       <li class="nav-item dropdown  user-menu">
-        <a class="nav-link dropdown-toggle" href="http://localhost/BookStore/index.php/BookStoreController/home">
+        <a class="nav-link dropdown-toggle" onclick="showModalLogin()">
           <span class="hidden-xs">Sign In</span>
         </a>
         
